@@ -22,22 +22,15 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 
-
 %----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
+% To enable bold small caps, switch to a font like Source Sans Pro:
 % \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
+% and comment out \usepackage{lmodern}
 
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
+\setlength{\footskip}{4pt} % Fix fancyhdr warning
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -59,7 +52,7 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% Ensure that generated PDF is machine-readable/ATS-parsable
 \pdfgentounicode=1
 
 %-------------------------
@@ -104,20 +97,24 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 \begin{center}
-	\textbf{\Huge \scshape Andrew Ryan}
+	\textbf{\Huge \scshape Alejandro M. Ouslan}
 \end{center}
-
 
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Brooklyn Technical High School}{Brooklyn, NY}
-{GPA 3.76, Class rank 63/350, SAT 1510}{Sept. 2021 -- Jun 2025}
+{University of Puerto Rico, Mayaguez}{Puerto Rico, PR}
+{Bachelor of Arts in Economics \quad GPA: 3.50}{Aug. 2019 -- May 2024}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Puerto Rico, Mayaguez}{Puerto Rico, PR}
+{Master of Science in Statistics Mathematics \quad GPA: 3.24}{Aug. 2024 -- Current}
 \resumeSubHeadingListEnd
 
 
@@ -126,107 +123,114 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Student Government}{Sept. 2023 -- Jun. 2024}
+{Student Money Association}{Sept. 2023 -- Jun. 2024}
 {Treasurer}{Brooklyn, NY}
 \resumeItemListStart
 \resumeItem{Developed budget proposals, collaborating with the student government team to plan major school events.}
 \resumeItem{Organized and led fundraising events, \textbf{raising over \$5,000} for school activities and projects.}
 \resumeItem{Managed the student government budget, ensuring accurate tracking and allocation of funds.}
-
 \resumeItemListEnd
 
 \resumeSubheading
-{Math Team}{Sept. 2022 -- Present}
+{Treasurer for the Economics Student Association}{Sept. 2022 -- Present}
 {Team Captain}{Brooklyn, NY}
 \resumeItemListStart
-\resumeItem{Competed in regional, state, and national-level math competitions\textbf{(NYCIML, NYCMTS).}}
-\resumeItem{Facilitated weekly study sessions to discuss high-level \textbf{Probability Theory, Geometry \& Algebra.}}
+\resumeItem{Competed in regional, state, and national-level math competitions \textbf{(NYCIML, NYCMTS)}.}
+\resumeItem{Facilitated weekly study sessions to discuss high-level \textbf{Probability Theory, Geometry \& Algebra}.}
 \resumeItem{Led a 26-member math team as captain, overseeing strategy development and competition preparation.}
 \resumeItemListEnd
 
-\resumeSubheading
-{Varsity Swim Team}{Sep. 2021 -- June 2024}
-{Team Captain}{Brooklyn, NY}
-\resumeItemListStart
-\resumeItem{Led the varsity swim team to its \textbf{inaugural section championship} through leadership and strategic planning.}
-\resumeItem{Mentored junior team members, providing guidance on proper techniques, race preparation, and sportsmanship.}
-\resumeItemListEnd
-
 \resumeSubHeadingListEnd
-
 
 %-----------Experience-----------
 \section{Experience}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{FlexiDip}{June 2024 -- Present}
-{Co-Founder}{Ann Arbor, MI}
+{Leading Hispanics, USDA}{June 2024 -- Present}
+{Research assitant}{Ann Arbor, MI}
 \resumeItemListStart
 \resumeItem{\textbf{Co-founded startup} specializing in adjustable dipping containers, optimizing buffalo wing dining experience.}
-\resumeItem{Developed minimum viable product(MVP) capable of early-stage revenue generation.}
+\resumeItem{Developed minimum viable product (MVP) capable of early-stage revenue generation.}
 \resumeItem{Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs.}
 \resumeItem{Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan.}
 \resumeItemListEnd
 
 \resumeSubheading
-{Private Math Tutor}{Sept. 2021 -- Present}
-{Team Captain}{Brooklyn, NY}
+{Puerto Rico Planing Board}{June 2024 -- Present}
+{Co-Founder}{Ann Arbor, MI}
 \resumeItemListStart
-\resumeItem{Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary \& middle-school students}
+\resumeItem{\textbf{Co-founded startup} specializing in adjustable dipping containers, optimizing buffalo wing dining experience.}
+\resumeItem{Developed minimum viable product (MVP) capable of early-stage revenue generation.}
+\resumeItem{Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs.}
+\resumeItem{Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan.}
+\resumeItemListEnd
+
+\resumeSubheading
+{}{Sept. 2021 -- Present}
+{Freelancer}{Brooklyn, NY}
+\resumeItemListStart
+\resumeItem{Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary \& middle-school students.}
 \resumeItem{Developed lesson plans for diverse learning styles, leading to improvements by \textbf{upwards of 1.5 letter grades}.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
+%-----------Awards-----------
 
-\section{Awards}
+\section{Awards \& Publications}
 \resumeSubHeadingListStart
+
 \resumeSubheading
-{Speedo Scholastic All-American}{Aug. 2023 -- Present}
+{Medal of the Department}{Aug. 2023 -- Present}
 {}{}
 \resumeItemListStart
 \vspace{-4mm}
-\resumeItem{National award given to student-athletes who achieve a \textbf{national time standard }while maintaining a 3.5+ GPA.}
+\resumeItem{Department award given to the student that excels in research while maintaining a 3.5+ GPA.}
 \resumeItemListEnd
 
 \resumeSubheading
-{National Junior Honor Society}{June 2023 -- Present}
+{2nd Place, Agriculture Conference}{June 2023 -- Present}
 {}{}
 \resumeItemListStart
 \vspace{-4mm}
-\resumeItem{Award presented to students with outstanding achievements in academics, leadership, and community service.}
+\resumeItem{Awarded second place for best economic research among master's students.}
 \resumeItemListEnd
+
+\resumeSubheading
+{Economic Report to the governer}{Sept. 2021 -- May 2022}
+{}{}
+\resumeItemListStart
+\vspace{-4mm}
+\resumeItem{Awarded a competitive fellowship to support independent research on sustainable agricultural practices.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Spain publications}{July 2023}
+{}{}
+\resumeItemListStart
+\vspace{-4mm}
+\resumeItem{Contributed to empirical analysis in \textit{"Price Volatility and Farmer Decision-Making in East Africa"}.}
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
-%-----------Courses-----------
-\section{Classes}
-\begin{itemize}[leftmargin=0.15in, label={}]
-	\small{\item{
-	      \vspace{1mm}
-	      \textbf{Courses}{: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature} \\
-
-	      }}
-\end{itemize}
-
-%-----------Skill and Interests-----------
+%-----------Skills and Interests-----------
 \section{Skills \& Interests}
 \begin{itemize}[leftmargin=0.15in, label={}]
-	\small{\item{
-	      \vspace{1mm}
-	      \textbf{Skills}{: Probability Theory, Web Design, Microsoft Excel, Microsoft Office} \\
-	      \vspace{1mm}
-	      \textbf{Interests}{: Photography, Creative Writing, Archery, New York Knicks} \\
-	      \vspace{1mm}
-
-	      }}
+	\item \small{
+		      \textbf{Skills}: Probability Theory, Web Design, Microsoft Excel, Microsoft Office
+	      }
+	\item \small{
+		      \textbf{Interests}: Photography, Creative Writing, Archery, New York Knicks
+	      }
 \end{itemize}
+
+%-----------Contact-----------
 \begin{center}
-
-	\small 123-456-7890 $|$
-	\href{mailto:ADD EMAIL HERE@x.com}{\underline{andrew@gmail.com}} $|$
-	\href{ADD LINKEDIN PAGE HERE}{\underline{linkedin.com/in/andrew}}
+	\small (787) 951-6131 $|$
+	\href{mailto:andrew.ryan@example.com}{\underline{alejandro.ouslan@upr.edu}} $|$
+	\href{https://linkedin.com/in/andrewryan}{\underline{linkedin.com/in/andrewryan}}
 \end{center}
-
 
 \end{document}
