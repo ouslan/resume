@@ -1,9 +1,5 @@
-%-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
+% Author: Alejandro M. Ouslan (based on template by Jake Gutierrez)
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -50,12 +46,7 @@
 \pdfgentounicode=1
 
 % Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -63,32 +54,13 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
@@ -99,19 +71,17 @@
 %-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
-
 \resumeSubheading
-{University of Puerto Rico, Mayaguez}{Mayaguez, PR}
-{Bachelor of Arts in Economics \quad GPA: 3.50}{Aug. 2019 -- May 2024}
+{University of Puerto Rico, Mayagüez}{Mayagüez, PR}
+{B.A. in Economics \quad GPA: 3.50}{Aug. 2019 -- May 2024}
 
 \resumeSubheading
 {Howard University}{Washington, DC}
-{AEA Summer Program \quad GPA: 3.50}{May. 2023 -- Jul 2024}
-
+{AEA Summer Program \quad GPA: 3.50}{May 2023 -- Jul 2024}
 
 \resumeSubheading
-{University of Puerto Rico, Mayaguez}{Mayaguez, PR}
-{Master of Science in Statistical Mathematics \quad GPA: 3.24}{Aug. 2024 -- Present}
+{University of Puerto Rico, Mayagüez}{Mayagüez, PR}
+{M.S. in Statistical Mathematics \quad GPA: 3.24}{Aug. 2024 -- Present}
 \resumeSubHeadingListEnd
 
 %-----------EXTRACURRICULAR-----------
@@ -120,26 +90,26 @@
 
 \resumeSubheading
 {Student Money Association}{Sept. 2023 -- Jun. 2024}
-{Student Assor}{Mayaguez, PR}
+{Student Advisor}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Helped students develop budget planas and educate on money management.}
-\resumeItem{The overall objective of the program was to provide financial literacy to the student body.}
+\resumeItem{Assisted students in developing personalized budgets and improving financial literacy.}
+\resumeItem{Promoted campus-wide awareness of responsible money management.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Economics Student Association}{Sept. 2022 -- Present}
-{Treasurer}{Mayaguez, PR}
+{Treasurer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Help manage the association's budget}
-\resumeItem{Help manage and create fund raisers for the association}
+\resumeItem{Managed the association’s annual budget and tracked expenditures.}
+\resumeItem{Organized fundraising events to support student activities and conferences.}
 \resumeItemListEnd
 
 \resumeSubheading
 {University of Salamanca}{Sept. 2022 -- Present}
-{Invited Profesor}{Salamanca, Spain}
+{Guest Lecturer}{Salamanca, Spain}
 \resumeItemListStart
-\resumeItem{Invited by the department of Political Science to give a class on Data Science and Research automation}
-\resumeItem{I thought students how to use automate web scrapping with python to download data from an API and create a reproducible report.}
+\resumeItem{Delivered a workshop on Data Science and Research Automation for political science students.}
+\resumeItem{Taught web scraping and API integration in Python to create reproducible reports.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -149,45 +119,45 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{RUMbo EX, UPRM}{Sept. 2021 -- Present}
-{Student Statistics/Economics Tutor}{Mayaguez, PR}
+{RUMbo EX, UPRM}{Sept. 2021 -- Sept. 2022}
+{Statistics and Economics Tutor}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Was tasked in tutoring students of the university for various courses}
-\resumeItem{Courses that I provided tutoring for are: Micro/Macro I \& II, Calc I,Stats I \& II, Engineering Economic Analysis}
+\resumeItem{Tutored undergraduate students in Microeconomics, Macroeconomics, Calculus I, Statistics I \& II, and Engineering Economic Analysis.}
+\resumeItem{Provided 1-on-1 and group sessions with tailored study plans.}
 \resumeItemListEnd
 
 \resumeSubheading
-{AEASP, Howard University}{May. 2024 -- Jul 2024}
+{AEASP, Howard University}{May 2024 -- Jul 2024}
 {AEA Scholar}{Washington, DC}
 \resumeItemListStart
-\resumeItem{As part of AEASP, I am conducting research with the Census Bureau.}
-\resumeItem{investigating the correlation between average travel time and the road length infrastructure at the PUMAs level for the entirety of the U,S for 2012-2019, employing Spatial Regression techniques.}
+\resumeItem{Conducted research with the U.S. Census Bureau on travel time and road infrastructure.}
+\resumeItem{Used Spatial Regression to explore regional disparities across U.S. PUMAs (2012–2019).}
 \resumeItemListEnd
 
 \resumeSubheading
-{LEADING Hispanics, USDA}{June 2024 -- Present}
-{Research Assistant}{Mayaguez, PR}
+{LEADING Hispanics, USDA}{Sept. 2023 -- Aug. 2024}
+{Research Assistant}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Research the correlation of living in a food desert and obtaining chronic deseases}
-\resumeItem{Additionally mesurad its spillover effects, that is the effects of living near a food deseases}
+\resumeItem{Studying the correlation between food deserts and the prevalence of chronic diseases.}
+\resumeItem{Analyzing spillover effects of proximity to food deserts using spatial econometrics.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Experimental Agriculture Station, UPRM}{June 2024 -- Present}
-{Lead Developer}{Mayaguez, PR}
+{Lead Developer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Tasked in leading a team of 5 software engineer in creating iterative websites for the Experimental Agriculture Station}
-\resumeItem{Tasked in creating varios forms for gathering detailed survey data from agricultores}
-\resumeItem{Tasked in estimating the overall caloric intake by county for Puerto Rico and displaying them as a map}
+\resumeItem{Leading a team of 5 engineers to develop web platforms for agricultural research.}
+\resumeItem{Created digital forms to collect detailed survey data from farmers.}
+\resumeItem{Built an interactive map estimating caloric intake by county in Puerto Rico.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Puerto Rico Planning Board}{June 2024 -- Present}
-{Lead Developer}{Mayaguez, PR}
+{Lead Developer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Tasked in leading a team of 15 engineers in creating various data processing pipelines to download, process, and visualice the data}
-\resumeItem{Tasked in automatically downloading data from various sources and store them in a SQL Database as a time series in monthly, quarterly, yearly and fiscal year}
-\resumeItem{Tasked in designing systems to automatically package the software, create unit testing, upload them to a docker registry and deploy them as production containers.}
+\resumeItem{Managing a team of 15 engineers to build data pipelines for economic indicators.}
+\resumeItem{Automated ingestion of data into SQL databases in monthly, quarterly, and yearly formats.}
+\resumeItem{Developed CI/CD pipelines for containerized applications using Docker and Nix.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -197,32 +167,32 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Medal of the Department}{Aug. 2023}
-{r}{r}
+{Departmental Research Medal}{Aug. 2023}
+{University of Puerto Rico, Mayagüez}{Mayaguez, PR}
 \resumeItemListStart
-\resumeItem{Awarded for excellence in research while maintaining a GPA above 3.5.}
+\resumeItem{Recognized for excellence in undergraduate research and GPA above 3.5.}
 \resumeItemListEnd
 
 \resumeSubheading
-{2nd Place, Agriculture Conference}{June 2025}
-{}{}
+{2nd Place, Agricultural Economics Conference}{June 2025}
+{University of Puerto Rico}{San Juan, PR}
 \resumeItemListStart
-\resumeItem{Recognized for best economic research among master's students.}
+\resumeItem{Awarded for best research in economics at the master’s level.}
 \resumeItemListEnd
 
 \resumeSubheading
-{Economic Report to the Governor}{Sept. 2021 -- May 2022}
-{}{}
+{X Jornadas Internacionales de Enseñanza}{July 2023}
+{University of Salamanca}{Spain}
 \resumeItemListStart
-\resumeItem{Received fellowship to research sustainable agricultural practices in Puerto Rico.}
-\resumeItemListEnd
-
-\resumeSubheading
-{X Jornadas Internacionales de enseñanza}{July 2023}
-{University of Salamanca, Spain}{}
-\resumeItemListStart
-\resumeItem{Co-authored \textit{"Price Volatility and Farmer Decision-Making in East Africa"}.}
+\resumeItem{Wrote about the importance utilizing more sophisticated tools like python and SQL}
 \resumeItem{DOI: \href{https://doi.org/10.14201/0AQ0368}{doi.org/10.14201/0AQ0368}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Economic Report to the Governor}{May 2024}
+{Puerto Rico's Planning Board}{San Juan, PR}
+\resumeItemListStart
+\resumeItem{Conducted research on sustainable agriculture practices in Puerto Rico.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -231,10 +201,10 @@
 \section{Skills \& Interests}
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\item \small{
-		      \textbf{Skills}: Python, Rust, R, STATA, SQL, GIT, ML, GIS, GAM, Docker, DEVOPS, NIX, ML, PYMC
+		      \textbf{Skills}: Python, Rust, R, STATA, SQL, Git, Machine Learning, GIS, GAM, Docker, DevOps, Nix, PyMC, Bayesian Modeling
 	      }
 	\item \small{
-		      \textbf{Interests}: Macroeconomics, Spatial Econometrics, Bayesian Inference, Time Series, Causal Inference
+		      \textbf{Interests}: Macroeconomics, Spatial Econometrics, Bayesian Inference, Time Series Analysis, Causal Inference
 	      }
 \end{itemize}
 
