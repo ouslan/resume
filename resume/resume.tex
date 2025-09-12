@@ -1,6 +1,3 @@
-% Resume in LaTeX
-% Author: Alejandro M. Ouslan (based on template by Jake Gutierrez)
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -82,7 +79,7 @@
 
 \resumeSubheading
 {M.S. in Statistical Mathematics}{Mayagüez, PR}
-{M.S. in Statistical Mathematics \quad GPA: 3.36}{Aug. 2024 -- Expected May 2026}
+{University of Puerto Rico, Mayagüez \quad GPA: 3.36}{Aug. 2024 -- Expected May 2026}
 
 \resumeSubheading
 {AEA Summer Program}{Washington, DC}
@@ -91,10 +88,6 @@
 \resumeSubheading
 {B.A. in Economics}{Mayagüez, PR}
 {University of Puerto Rico, Mayagüez \quad GPA: 3.50}{Aug. 2019 -- May 2024}
-
-\resumeSubheading
-{AEA Summer Program}{Washington, DC}
-{Howard University \quad GPA: 3.75}{May 2024 -- Jul. 2024}
 
 \resumeSubHeadingListEnd
 
@@ -106,30 +99,32 @@
 {Economic Report for the Governor 2023}{May 2024}
 {Puerto Rico Planning Board}{San Juan, PR}
 \resumeItemListStart
-\resumeItem{Calculated the Human Development Index (HDI) for Puerto Rico (2012–2023) and wrote a chapter in the Economic Report for the Governor 2023.}
+\resumeItem{Calculated the Human Development Index (HDI) for Puerto Rico (2012–2023) and contributed a chapter to the Economic Report for the Governor 2023.}
+\resumeItem{Used data from the IPUMS}
 \resumeItem{Report link: \href{https://jp.pr.gov/wp-content/uploads/2024/07/IEG2023-OCE-SA-2024-08598.pdf}{jp.pr.gov/.../IEG2023-OCE-SA-2024-08598.pdf}}
 \resumeItemListEnd
 
 \resumeSubheading
-{Best Graduate research, Symposium on Applied Economics}{June 2025}
+{Best Graduate Research, Symposium on Applied Economics}{June 2025}
 {University of Puerto Rico, Mayagüez}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Awarded 2nd place best graduate research. Studied the impacts of minimum wage on employment and its spatial spillover effects.}
+\resumeItem{Awarded 2nd place for best graduate research.}
+\resumeItem{Analyzed the effects of minimum wage changes on employment in foreign versus domestic businesses. Found varying impacts across NAICS sectors, with domestic businesses experiencing a reduction in employment and foreign businesses facing a stronger negative impact.}
+\resumeItem{Used uncensored QCEW data from the BLS and applied a Bayesian panel regression with fixed effects to estimate the posterior coefficients of the minimum wage on employment.}
 \resumeItemListEnd
-
 
 \resumeSubheading
 {Medal of the Department}{May. 2024}
 {University of Puerto Rico, Mayagüez}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Recognized for excellence in undergraduate research and a GPA above 3.5.}
+\resumeItem{Recognized for excellence in undergraduate research and maintaining a GPA above 3.5.}
 \resumeItemListEnd
 
 \resumeSubheading
-{X International Conferences in Statistics and Operational Research}{July 2023}
+{X International Conference in Statistics and Operational Research}{July 2023}
 {University of Salamanca}{Salamanca, Spain}
 \resumeItemListStart
-\resumeItem{Published work on the importance of utilizing advanced tools such as Python and SQL in academic research.}
+\resumeItem{Published work on the importance of utilizing advanced tools like Python and SQL in academic research.}
 \resumeItem{DOI: \href{https://doi.org/10.14201/0AQ0368}{doi.org/10.14201/0AQ0368}}
 \resumeItemListEnd
 
@@ -143,28 +138,28 @@
 {Puerto Rico Planning Board}{Jan. 2024 -- Jul. 2025}
 {Lead Developer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Led a 15-person team building data pipelines for key economic indicators.}
-\resumeItem{Calculated Puerto Rico’s GDP from primary data sources.}
-\resumeItem{Automated data ingestion into SQL databases (monthly, quarterly, yearly).}
-\resumeItem{Developed CI/CD pipelines for containerized apps using Docker and Nix.}
+\resumeItem{Led a 15-person team to develop data pipelines for key economic indicators.}
+\resumeItem{Utilized Django for the frontend and FastAPI for the backend.}
+\resumeItem{Developed API endpoints to download data from sources such as USA Spending, PR Department of Labor, Census Bureau, PR Planning Board, PR Statistics Institute, Luma Energy, and BLS.}
+\resumeItem{Automated data ingestion into SQL databases on a monthly, quarterly, and yearly basis.}
+\resumeItem{Developed CI/CD pipelines using GitHub Actions to package modules as pip packages, bundle the project with Docker, and deploy to a hosted Nix server.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Food Security Data Center (SEA), UPRM}{Sept. 2023 -- Jul. 2025}
 {Lead Developer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Leading a team of 5 engineers to develop web platforms for the Experimental Agricultural Station (SEA).}
-\resumeItem{Built an interactive map estimating caloric intake by county in Puerto Rico.}
-\resumeItem{Created automation tools to automatically take data from the QCEW and report the amount of food establishments in PR.}
+\resumeItem{Led a team of 5 engineers to develop web platforms for the Experimental Agricultural Station (SEA).}
+\resumeItem{Used IPUMS data to calculate caloric intake by county in Puerto Rico and create interactive maps.}
+\resumeItem{Developed automation tools for extracting and reporting food establishment data from the QCEW.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Agricultural Coffee Survey (SEA), UPRM}{Mar. 2024 -- Jul. 2025}
 {Lead Developer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Leading a team of 5 engineers to develop web platforms for the Experimental Agricultural Station (SEA).}
-\resumeItem{Created digital survey tools for collecting field data from farmers.}
-\resumeItem{Built automation tools for ingesting the survey data and producing automated reports}
+\resumeItem{Led a team of 5 engineers to develop digital survey tools for collecting field data from farmers.}
+\resumeItem{Built automation tools to ingest survey data and produce automated reports.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -179,7 +174,8 @@
 {LEADING Hispanics, USDA}{Sept. 2023 -- Aug. 2024}
 {Research Assistant}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Analyzed the correlation between food deserts and chronic disease prevalence.}
+\resumeItem{Analyzed the correlation between food deserts and chronic disease prevalence, finding a positive correlation between proximity to food deserts and higher cancer mortality rates.}
+\resumeItem{Applied a Bayesian Spatial Durbin Model using uncensored QCEW data from the BLS.}
 \resumeItem{Evaluated spillover effects using spatial econometrics.}
 \resumeItemListEnd
 
@@ -187,8 +183,8 @@
 {RUMbo EX, UPRM}{Sept. 2023 -- Jan. 2024}
 {Statistics and Economics Tutor}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Tutored undergraduate students in Microeconomics, Macroeconomics, Calculus I, Statistics I \& II, and Engineering Economic Analysis.}
-\resumeItem{Led personalized one-on-one and group sessions with tailored study plans.}
+\resumeItem{Tutored undergraduate students in Microeconomics, Macroeconomics, Econometrics, pre-Calculus I \& II, Calculus I, Statistics I \& II, and Engineering Economic Analysis.}
+\resumeItem{Led personalized one-on-one and group sessions with tailored study plans. Prepared simulated exams on for the Calculus}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -196,7 +192,7 @@
 {Intern}{Mayagüez, PR}
 \resumeItemListStart
 \resumeItem{Collaborated with engineers to design a lunar drone for water extraction and prepared a project proposal.}
-\resumeItem{Managed the project's budget, ensuring costs remained below \$10 million.}
+\resumeItem{Managed the project’s budget, ensuring costs remained below \$10 million.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -217,7 +213,7 @@
 {Economics Student Association}{Aug. 2021 -- Jun. 2022}
 {Treasurer}{Mayagüez, PR}
 \resumeItemListStart
-\resumeItem{Managed the association’s annual budget and tracked expenditures.}
+\resumeItem{Managed the association’s budget and tracked expenditures.}
 \resumeItem{Organized fundraising events to support student activities and conferences.}
 \resumeItemListEnd
 
