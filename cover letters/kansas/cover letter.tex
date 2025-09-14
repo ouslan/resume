@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage{charter} % Use the Charter font
+\usepackage[
+    a4paper, % Paper size
+    top=1in, % Top margin
+    bottom=1in, % Bottom margin
+    left=1in, % Left margin
+    right=1in, % Right margin
+]{geometry}
+
+\setlength{\parindent}{0pt} % Paragraph indentation
+\setlength{\parskip}{1em} % Vertical space between paragraphs
+
+\usepackage{graphicx} % Required for including images
+
+\usepackage{fancyhdr} % Required for customizing headers and footers
+
+\fancypagestyle{firstpage}{%
+    \fancyhf{} % Clear default headers/footers
+    \renewcommand{\headrulewidth}{0pt} % No header rule
+    \renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\fancypagestyle{subsequentpages}{%
+    \fancyhf{} % Clear default headers/footers
+    \renewcommand{\headrulewidth}{1pt} % Header rule thickness
+    \renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\AtBeginDocument{\thispagestyle{firstpage}} % Use the first page headers/footers style on the first page
+\pagestyle{subsequentpages} % Use the subsequent pages headers/footers style on subsequent pages
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	FIRST PAGE HEADER
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=0.4\textwidth]{../assets/logo.png} % Logo
+
+\vspace{-1em} % Pull the rule closer to the logo
+
+\rule{\linewidth}{1pt} % Horizontal rule
+
+\bigskip\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\hfill
+\begin{tabular}{l @{}}
+\hfill \today \bigskip\\ % Date
+\hfill Alejandro M. Ouslan \\
+\hfill alejandro.ouslan@upr.edu \\
+\hfill 4025 Calle N Mediana Gonzalez\\
+\hfill Mayaguez, Puerto Rico, 00682 \\
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+Federal Reserve Bank \\ 
+of Kansas City \\
+1 Memorial Drive \\
+Kansas City, MO 64198 \\
+\end{tabular}
+
+
+\bigskip % Vertical whitespace
+
+Dear Research Assistant Hiring Committee,
+
+\bigskip % Vertical whitespace
+
+I am writing to express my strong interest in applying for the Research Assistant position at the Federal Reserve Bank of Kansas City.
+I am Alejandro M. Ouslan, currently pursuing a Master’s in Statistical Mathematics at the University of Puerto Rico, Mayagüez, with an expected graduation date of May 2026.
+
+As a student specializing in Bayesian inference and spatial statistics, I have developed a solid foundation in advanced statistical modeling, econometrics, and data analysis.
+Through my role as a Lead Developer at the Puerto Rico Planning Board, I led a team of engineers in the creation of automated systems that gathered and processed economic data
+from multiple sources, including the BLS’s QCEW and U.S. Census. This experience honed my skills in Python, R, SQL, and machine learning, which I believe would be directly
+applicable to your research projects at the Federal Reserve.
+
+I am also deeply interested in macroeconomics, particularly in forecasting. Unfortunately, my current institution does not offer many opportunities to engage with macroeconomics professors,
+making this position an ideal opportunity for me to learn and contribute in this field. The chance to work with the Federal Reserve would provide me exposure to macroeconomic
+research.
+
+This Research Assistant position presents an exciting opportunity for me to further my career goals of pursuing a Ph.D. in economics, while also contributing to
+cutting-edge economic research at one of the most influential financial institutions globally. I am enthusiastic about the possibility of collaborating with
+other RA's and applying my skills in fathering economic research.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my background, skills, and interests align with the needs of your team.
+
+Sincerely,  
+\vspace{20pt}  
+
+Alejandro M. Ouslan \\
+Graduate Student \\
+Department of Mathematics \\
+University of Puerto Rico, Mayaguez
+\end{document}
