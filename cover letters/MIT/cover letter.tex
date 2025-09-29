@@ -12,7 +12,7 @@
 \setlength{\parskip}{1em} % Vertical space between paragraphs
 
 \usepackage{graphicx} % Required for including images
-
+\usepackage{hyperref}
 \usepackage{fancyhdr} % Required for customizing headers and footers
 
 \fancypagestyle{firstpage}{%
@@ -36,11 +36,18 @@
 %	FIRST PAGE HEADER
 %----------------------------------------------------------------------------------------
 
+\begingroup
+\setlength{\topskip}{0pt}%
+\setlength{\parskip}{0pt}%
+\setlength{\parindent}{0pt}%
+\vspace*{-1.5cm} % Adjust this value as needed to move the logo up
+
 \includegraphics[width=0.4\textwidth]{../assets/logo.png} % Logo
 
 \vspace{-1em} % Pull the rule closer to the logo
 
 \rule{\linewidth}{1pt} % Horizontal rule
+\endgroup
 
 \bigskip\bigskip % Vertical whitespace
 
@@ -82,20 +89,19 @@ I am Alejandro M. Ouslan, currently pursuing a Master’s in Statistical Mathema
 
 As a student specializing in Bayesian inference and spatial statistics, I have developed a solid foundation in advanced statistical modeling, econometrics, and data analysis.
 Through my role as a Lead Developer at the Puerto Rico Planning Board, I led a team of engineers in the creation of automated systems that gathered and processed economic data
-from multiple sources, including the BLS’s QCEW and U.S. Census. This experience honed my skills in Python, R, SQL, and machine learning, which I believe would be directly
-applicable to your research projects at the Federal Reserve.
+from multiple sources, including the BLS’s QCEW and U.S. Census. This experience honed my skills in Python, STATA, SQL, and Rust which I believe would be directly
+applicable to your research projects at Policy Impacts.
 
-Additionally I am familiar with orchestrating varios data process workflow using GitHub actions. Another of my responsibilities working with the Planning Board was designing and 
-implementing a system that once one of the staging branches was merged into main the GitHub action would automatically build the Docker image and run various tests on the container. 
-Next another script on the production server would scan for changes in the compiled image and would automatically update the old docker image with the new version.
+In addition, I have experience orchestrating data workflows using GitHub Actions. While working with the Puerto Rico Planning Board, I designed and implemented an 
+automated system where, upon merging a staging branch into the main branch, GitHub Actions would automatically build a Docker image and run various tests on the 
+container. A separate script on the production server would then detect any changes to the compiled image and update the existing Docker image with the new version.
 
-I am also deeply interested in macroeconomics, particularly in forecasting. Unfortunately, my current institution does not offer many opportunities to engage with macroeconomics professors,
-making this position an ideal opportunity for me to learn and contribute in this field. The chance to work with the Federal Reserve would provide me exposure to macroeconomic
-research.
+I am particularly interested in contributing to the project on the 
+\href{https://policyimpacts.org/research/the-radius-of-opportunity-evidence-from-migration-and-local-labor-markets/}{impact of local labor markets on upward economic mobility}, 
+as it aligns closely with my master’s thesis. In my research, I use simulations to compare traditional spatial models, such as the Spatial Durbin Model (SDM), with generalized 
+additive models (GAMs) that employ tensor products as spatial smoothers. This approach offers a solution when defining the spatial weights matrix is ambiguous or when spatial
+relationships are complex and not easily inferred.
 
-This Research Assistant position presents an exciting opportunity for me to further my career goals of pursuing a Ph.D. in economics, while also contributing to
-cutting-edge economic research at one of the most influential financial institutions globally. I am enthusiastic about the possibility of collaborating with
-other RA's and applying my skills in fathering economic research.
 
 Thank you for considering my application. I look forward to the opportunity to discuss how my background, skills, and interests align with the needs of your team.
 
